@@ -1,0 +1,48 @@
+body {
+  font-family: Poppins;
+}
+
+.card-title,
+.icon-active {
+  color: rgba(84, 91, 232, 1);
+}
+
+.navbar,
+.card {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(232, 226, 242, 1);
+}
+
+.tab,
+.icon {
+  text-decoration: none;
+  color: rgba(113, 125, 150, 1);
+}
+
+.tab-active {
+  text-decoration: none;
+  color: rgba(84, 91, 232, 1);
+}
+
+.btn-daftar {
+  background: rgba(84, 91, 232, 1);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.btn-masuk {
+  background: white;
+  color: rgba(84, 91, 232, 1);
+  border-radius: 5px;
+  border-color: rgba(84, 91, 232, 1);
+  border: 20%;
+}
+
+.header-section {
+  margin-top: 60px;
+}
+
+.card-text {
+  font-size: x-small;
+}
