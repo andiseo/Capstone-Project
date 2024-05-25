@@ -46,3 +46,7 @@ body {
 .card-text {
   font-size: x-small;
 }
+
+a:hover .card {
+  transform: scale(1.05);
+}

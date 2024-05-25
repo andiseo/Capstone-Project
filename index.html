@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" />
-    <title>Document</title>
+    <title>Beranda</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -23,7 +23,7 @@
           </div>
           <div class="nav-link d-flex align-items-center mx-1">
             <i class="icon fs-5 bi bi bi-journals"></i>
-            <a class="tab px-1 fw-semibold" href="#">Materi</a>
+            <a class="tab px-1 fw-semibold" href="materi.html">Materi</a>
           </div>
           <div class="nav-link d-flex align-items-center mx-1">
             <i class="icon fs-5 bi bi bi-people"></i>
@@ -45,7 +45,7 @@
       </div>
     </nav>
     <!-- Hero Section -->
-    <div class="container-fluid py-2 d-flex justify-content-center align-items-center" style="padding: 80px">
+    <!-- <div class="container-fluid py-2 d-flex justify-content-center align-items-center" style="padding: 80px">
       <div>
         <div class="fs-2 fw-semibold" style="color: rgba(84, 91, 232, 1)">Selamat datang di Pandusaha!</div>
         <div class="body-text mt-3" style="width: 80%">
@@ -58,6 +58,21 @@
       </div>
       <img src="/image/Hero-Image.png" alt="" style="width: 700px" />
     </div>
+    -->
+    <div class="container-fluid py-2 d-flex justify-content-center m-auto align-items-center">
+      <div style="width: fit-content">
+        <div class="fs-2 fw-semibold" style="color: rgba(84, 91, 232, 1)">Selamat datang di Pandusaha</div>
+        <div class="body-text mt-3" style="width: 600px">
+          Platform edukasi terbaik bagi kamu yang ingin mengembangkan bisnis! dilengkapi video pembelajaran, kuis interaktif, serta sesi mentoring dengan para profesional. Ayo, kembangkan bisnismu bersama kami!
+        </div>
+        <div class="d-flex mt-3">
+          <button type="button" class="m-1 btn-daftar px-3 py-2">Daftar</button>
+          <button type="button" class="m-1 btn-masuk px-3 py-2">Masuk</button>
+        </div>
+      </div>
+      <img src="/image/Hero-Image.png" alt="" style="width: 650px" />
+    </div>
+
     <!-- Materi -->
     <div class="header-section">
       <div class="fs-2 fw-semibold text-center" style="color: rgba(84, 91, 232, 1)">Jelajahi materi terbaik kami!</div>
@@ -65,27 +80,33 @@
     </div>
     <!-- Materi -->
     <div class="d-flex justify-content-center m-auto p-2">
-      <div class="card mx-4 mb-4" style="width: 22rem">
-        <img src="image/Manajemen.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Manajemen usaha</h5>
-          <p class="card-text">Tingkatkan keterampilan manajemen usaha Anda dengan panduan praktis dan strategi efektif</p>
+      <a href="manajemen-usaha.html" class="text-decoration-none">
+        <div class="card mx-4 mb-4" style="width: 22rem">
+          <img src="image/Manajemen.png" class="card-img-top" alt="Manajemen usaha" />
+          <div class="card-body">
+            <h5 class="card-title">Manajemen usaha</h5>
+            <p class="card-text">Tingkatkan keterampilan manajemen usaha Anda dengan panduan praktis dan strategi efektif</p>
+          </div>
         </div>
-      </div>
-      <div class="card mx-4 mb-4" style="width: 22rem">
-        <img src="image/Pemasaran.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Pemasaran dan Penjualan</h5>
-          <p class="card-text">Pelajari strategi pemasaran dan penjualan yang efektif untuk meningkatkan visibilitas dan penjualan produk.</p>
+      </a>
+      <a href="manajemen-usaha.html" class="text-decoration-none">
+        <div class="card mx-4 mb-4" style="width: 22rem">
+          <img src="image/Pemasaran.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Pemasaran dan Penjualan</h5>
+            <p class="card-text">Pelajari strategi pemasaran dan penjualan yang efektif untuk meningkatkan visibilitas dan penjualan produk.</p>
+          </div>
         </div>
-      </div>
-      <div class="card mx-4 mb-4" style="width: 22rem">
-        <img src="image/Inovasi.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Inovasi Teknologi Bisnis</h5>
-          <p class="card-text">Jelajahi teknologi terbaru yang dapat mengoptimalkan operasional dan mendorong inovasi dalam bisnis Anda.</p>
+      </a>
+      <a href="manajemen-usaha.html" class="text-decoration-none">
+        <div class="card mx-4 mb-4" style="width: 22rem">
+          <img src="image/Inovasi.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Inovasi Teknologi Bisnis</h5>
+            <p class="card-text">Jelajahi teknologi terbaru yang dapat mengoptimalkan operasional dan mendorong inovasi dalam bisnis Anda.</p>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     <!-- Mentoring -->
     <div class="header-section d-flex justify-content-end mx-auto align-items-center">
